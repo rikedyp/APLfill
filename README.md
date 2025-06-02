@@ -13,6 +13,7 @@
 | `T`             | `⊤`          | `⊥⍣¯1`                                                       |
 | `ë`             | `⸚`          | [Each](https://aplwiki.com/wiki/Each) which, if any argument is empty, doesn't apply its operand but rather returns an appropriately shaped no-prototype array |
 | `Ö`             | `⍥`          | Depth: apply left operand at leaves of depth no greater than right-operand, or, if right operand is negative, no more than that many levels from the argument's max depth |
+| `_`             | undecided    | Stack: laminate arrays of same rank, or catenate arrays of differing ranks along the first axis |
 
 Naming convention:
 
